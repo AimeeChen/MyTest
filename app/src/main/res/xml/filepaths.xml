@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths xmlns:android="http://schemas.android.com/apk/res/android">
+        <!--代表根目录：Environment.getExternalStorageDirectory()
+        可以访问外部存储目录下，images文件夹下的文件（/storage/emulated/0/images）-->
+        <external-path path="Pictures/Screenshots" name="camera_photos" />
+
+        <!--可以传递外部存储设备根目录下的任意一张图片-->
+        <!--<external-path android:name="camera_photos" android:path=""/>-->
+    </paths>
+</resources>
